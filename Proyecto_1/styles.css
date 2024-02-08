@@ -44,7 +44,7 @@ anchoy altura */
 .menu{
     position: absolute;
     top: 6px;
-    left: 0;
+    left: 0px;
     right: 0px;
     display: flex;
     align-items:center;
@@ -56,6 +56,8 @@ anchoy altura */
 /*imagen de logo mover*/
 
 img.caffe-logo-nefer {
+    
+    
     width: 120px;
     margin-top: 16px; 
     transition: all .20s ease-in-out;
@@ -219,12 +221,24 @@ img.caffe-logo-nefer {
 
 .coffee-1 img {
     width: 200px;
+    transition: all 100ms;
+
 }
 
+.coffee-1 img:hover {
+    width: 200px;
+    transform: scale(1.15);
+
+
+}
+
+
+
 .coffee-img {
-    position: absolute;
     top: 0px;
     right: 0px;
+    position: absolute;
+    transition: all;
 }
 
 .coffee-1 h3 {
