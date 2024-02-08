@@ -179,10 +179,6 @@ img.caffe-logo-nefer {
 
 
 
-
-
-
-
 .coffee {
     padding: 100px 0px;
     background-color: #e1e2e6;
@@ -219,6 +215,7 @@ img.caffe-logo-nefer {
     padding: 0 25px;
 }
 
+
 .coffee-1 img {
     width: 200px;
     transition: all 100ms;
@@ -233,8 +230,16 @@ img.caffe-logo-nefer {
 }
 
 .coffee-img {
-    top: 0px;
-    right: 0px;
+    top: -90px;
+    right: -50px;
+    position: absolute;
+}
+
+/* acomodar granos de cafe */
+
+.coffee-img_down{
+    top: 550px;
+    right: 1520px;
     position: absolute;
 }
 
@@ -415,6 +420,12 @@ link h3 {
     .coffee-img {
         display: none;
     }
+
+    .coffee-img_down{
+    top: 483px;
+    right: 1456px;
+    position: absolute;
+}
 }
 
 @media(max-width:991px) {
