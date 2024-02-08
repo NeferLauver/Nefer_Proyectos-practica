@@ -30,7 +30,7 @@ anchoy altura */
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(../Imagenes/bg.jpg);
+        url(../Proyecto_1-Caffe/Imagenes/bg.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,7 +258,7 @@ img.caffe-logo-nefer {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(../Imagenes/bg2.jpg);
+        url(../Proyecto_1-Caffe/Imagenes/bg2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -343,7 +343,7 @@ img.caffe-logo-nefer {
 }
 
 .general-2 {
-    background-image: url(../Imagenes/coffe-1.jpg);
+    background-image: url(../Proyecto_1-Caffe/Imagenes/coffe-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,7 +351,7 @@ img.caffe-logo-nefer {
 }
 
 .general-3 {
-    background-image: url(../Imagenes/coffee-2.jpg);
+    background-image: url(../Proyecto_1-Caffe/Imagenes/coffee-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
