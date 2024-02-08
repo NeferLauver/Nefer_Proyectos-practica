@@ -243,7 +243,7 @@ img.caffe-logo-nefer {
 /* acomodar granos de cafe */
 
 .coffee-img_down{
-    top: 550px;
+    top: 480px;
     right: 1520px;
     position: absolute;
 }
@@ -307,17 +307,28 @@ img.caffe-logo-nefer {
 .services-1 {
     padding: 0 80px;
     text-transform: none;
+    
 }
 /*arreglar tamaño imagenes de servicios */
 
 .services-1 img {
-    width: 120px;
+    width: 200px;
     margin-bottom: 0;
 }
 
 
+.services-1 img:hover {
+    width: 200px;
+    margin-bottom: 0;
+    transform: scale(1.30);
+}
+
+
+
+
+
 .services-1 h3 {
-    color: #eaccb3;
+    color: #ffffff;
     font-size: 18px;
 }
 
