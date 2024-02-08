@@ -138,6 +138,16 @@ img.caffe-logo-nefer {
     border-radius: 16px;
 }
 
+ #btn-nosemueve {
+    border-radius: 60px;
+}
+
+
+
+
+
+
+
 /* .btn-1:hover {
     background-color: rgb(114, 59, 37);
     box-shadow: #ce967b 0 0 15px;
@@ -258,7 +268,7 @@ img.caffe-logo-nefer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 100px 0;
+    padding: 100px 0px 5px;
 }
 
 .services-content {
