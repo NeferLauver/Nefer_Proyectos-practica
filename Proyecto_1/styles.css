@@ -232,13 +232,10 @@ img.caffe-logo-nefer {
 
 }
 
-
-
 .coffee-img {
     top: 0px;
     right: 0px;
     position: absolute;
-    transition: all;
 }
 
 .coffee-1 h3 {
@@ -411,6 +408,14 @@ link h3 {
     margin-bottom: 15px;
 }
 
+
+/* punto de quiebe para desaparecer a granod e cafe */
+
+@media(max-width:1590px) {
+    .coffee-img {
+        display: none;
+    }
+}
 
 @media(max-width:991px) {
     .menu{
