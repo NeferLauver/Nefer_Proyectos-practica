@@ -139,14 +139,9 @@ img.caffe-logo-nefer {
 }
 
  #btn-nosemueve {
-    border-radius: 60px;
+    border-radius: 50px;
+    width:  26%;
 }
-
-
-
-
-
-
 
 /* .btn-1:hover {
     background-color: rgb(114, 59, 37);
@@ -305,6 +300,7 @@ img.caffe-logo-nefer {
     display: flex;
     justify-content:space-between;
     margin-bottom: 50px;
+    margin-top: 100px;
     
 }
 
@@ -386,6 +382,11 @@ p {
     width: 400px;
     border-radius: 15px;
     margin-bottom: 15px;
+}
+
+.blog-1 img:hover {
+    transform: scale(1.15);
+
 }
 
 .sinmover {
