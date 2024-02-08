@@ -30,7 +30,7 @@ anchoy altura */
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(Imagenes/bg.jpg);
+        url(../Imagenes/bg.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
