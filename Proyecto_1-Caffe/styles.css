@@ -194,7 +194,7 @@ img.caffe-logo-nefer {
   }
   .btn-1::after {
     content: "";
-    background: #D15300 ; /* color de fondo hover */
+    background: #6A2C03 ; /* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
