@@ -130,14 +130,14 @@ img.caffe-logo-nefer {
 
 /*lo convertimos a bloc y podemos aplicar bien margin y padin*/
 
-.btn-1 {
+/* .btn-1 {
     display: inline-block;
     padding: 11px 35px;
     background-color: #ce967b;
     color: #f9fafc;
     text-transform: uppercase;
     border-radius: 16px;
-}
+} */
 
  #btn-nosemueve {
     border-radius: 50px;
