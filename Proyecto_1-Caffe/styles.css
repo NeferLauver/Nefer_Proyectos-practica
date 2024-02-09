@@ -128,6 +128,22 @@ img.caffe-logo-nefer {
     margin-bottom: 25px;
 }
 
+
+.btn-1_shop {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+}
+
+.menu .nabar a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+
 /*lo convertimos a bloc y podemos aplicar bien margin y padin*/
 
 /* .btn-1 {
