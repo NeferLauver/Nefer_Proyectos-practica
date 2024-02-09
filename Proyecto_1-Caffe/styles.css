@@ -130,7 +130,7 @@ img.caffe-logo-nefer {
  .btn-1_shop {
     font-size: 18px;
     display: flex;
-    background: #ce967b; /* color de fondo */
+    background: #BF7747; /* color de fondo */
     color: #fff; /* color de fuente */
      /* tamaño y color de borde */
     padding: 16px 20px;
@@ -140,6 +140,12 @@ img.caffe-logo-nefer {
     overflow: hidden;
     display: inline-block;
 }
+
+.btn-1_shop:hover {
+    background: #D15300 ;
+  color: #fff !important;
+  }
+
 
 /*.menu .nabar a {
     font-size: 18px;
@@ -173,7 +179,7 @@ img.caffe-logo-nefer {
 
 /*** ESTILOS BOTÓN GROW SPIN ***/
 .btn-1 {
-    background: #ce967b; /* color de fondo */
+    background: #BF7747; /* color de fondo */
     color: #fff; /* color de fuente */
      /* tamaño y color de borde */
     padding: 16px 20px;
@@ -188,7 +194,7 @@ img.caffe-logo-nefer {
   }
   .btn-1::after {
     content: "";
-    background: rgb(114, 59, 37); /* color de fondo hover */
+    background: #D15300 ; /* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
