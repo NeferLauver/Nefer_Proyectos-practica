@@ -6,12 +6,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:content-box;
     text-decoration: none;
     list-style: none;
     
+    
 }
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -70,12 +70,21 @@ img.caffe-logo-nefer {
     font-weight: 800;
 }*/
 
+/* cuando se haga scroll no quedara todo pegado en la parte superior  */
+
+.scroll {
+    scroll-margin-top: 70px;
+}
+
+
 
 .menu .navbar ul li{
-    position: relative;
+    position: f;
     float: left;
 
 }
+
+
 
 .menu .navbar ul li a {
     font-size: 18px;
@@ -104,6 +113,28 @@ img.caffe-logo-nefer {
     cursor: pointer;
     display: none;
 }
+
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    display:block;
+    }
+
+    .nav li a:hover{
+    background-color:#BBBBBB; 
+    }
+
+    .navbar > li{
+    float: left;
+    }
+
+
+
+
+
+
 
 .header-content{
     text-align: center;
@@ -253,14 +284,11 @@ img.caffe-logo-nefer {
 .coffee-1 img {
     width: 200px;
     transition: all 100ms;
-
 }
 
 .coffee-1 img:hover {
     width: 200px;
     transform: scale(1.15);
-
-
 }
 
 .coffee-img {
@@ -299,7 +327,6 @@ img.caffe-logo-nefer {
     text-align: center;
     
 }
-
 
 .services-content {
     text-align: 55px;
