@@ -6,7 +6,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:content-box;
+    box-sizing:border-box;
     text-decoration: none;
     list-style: none;
     
@@ -365,7 +365,13 @@ img.caffe-logo-nefer {
 
 .general {
     display: flex;
+    
 }
+
+.general p {
+    text-align: justify;
+}
+
 
 .general-1 {
     width: 50%;
@@ -373,10 +379,6 @@ img.caffe-logo-nefer {
     background-color: #e1e2e6;
 }
 
-
-.general-1 p {
-    text-align: justify;
-}
 
 .general-2 {
     background-image: url(Imagenes/coffe-1-1.desayuno.jpg);
