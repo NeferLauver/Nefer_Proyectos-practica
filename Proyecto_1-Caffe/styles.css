@@ -56,8 +56,6 @@ anchoy altura */
 /*imagen de logo mover*/
 
 img.caffe-logo-nefer {
-    
-    
     width: 120px;
     margin-top: 16px; 
     transition: all .20s ease-in-out;
@@ -129,19 +127,19 @@ img.caffe-logo-nefer {
 }
 
 
-.btn-1_shop {
+ .btn-1_shop {
     font-weight: bold;
     font-size: 18px;
     display: flex;
 }
 
-.menu .nabar a {
+/*.menu .nabar a {
     font-size: 18px;
     padding: 20px;
     color: #fffdfc;
     display: block;
     font-weight: 600;
-}
+} */
 
 
 /*lo convertimos a bloc y podemos aplicar bien margin y padin*/
