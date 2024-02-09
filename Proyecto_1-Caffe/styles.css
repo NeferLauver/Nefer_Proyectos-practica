@@ -114,27 +114,6 @@ img.caffe-logo-nefer {
     display: none;
 }
 
-.nav li a{
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    padding: 20px 20px;
-    display:block;
-    }
-
-    .nav li a:hover{
-    background-color:#BBBBBB; 
-    }
-
-    .navbar > li{
-    float: left;
-    }
-
-
-
-
-
-
 
 .header-content{
     text-align: center;
