@@ -128,9 +128,17 @@ img.caffe-logo-nefer {
 
 
  .btn-1_shop {
-    font-weight: bold;
     font-size: 18px;
     display: flex;
+    background: #ce967b; /* color de fondo */
+    color: #fff; /* color de fuente */
+     /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 15px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
 }
 
 /*.menu .nabar a {
