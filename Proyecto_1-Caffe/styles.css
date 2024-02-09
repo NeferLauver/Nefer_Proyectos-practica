@@ -506,7 +506,8 @@ link h3 {
    /* desaparecer en query cel*/
 
     img.caffe-logo-nefer {
-        display: none;
+        width: 80px;
+        margin-top: 16px;
         
     }
 
