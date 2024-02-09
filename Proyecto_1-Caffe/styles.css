@@ -10,7 +10,6 @@
     text-decoration: none;
     list-style: none;
     
-    
 }
 
 body {
@@ -42,14 +41,13 @@ anchoy altura */
 
 
 .menu{
-    position: absolute;
+    position: fixed;
     top: 6px;
     left: 0px;
     right: 0px;
     display: flex;
     align-items:center;
     justify-content: space-between;
-    
 }
 
 
@@ -425,9 +423,6 @@ p {
 .blog-1 {
     padding: 15px 55px;
 }
-
-
-
 
 
 .blog-1 img {
