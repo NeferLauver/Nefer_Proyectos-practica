@@ -516,6 +516,10 @@ link h3 {
         display: none;
     }
 
+    .btn-Shop {
+        display: none;
+    }
+
     .menu .navbar ul li {
         width: 100%;
     }
