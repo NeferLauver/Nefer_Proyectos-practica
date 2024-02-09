@@ -86,10 +86,16 @@ body{
     margin-bottom: 23px; 
 }
 
-.row img {
-    width: 50%;
+/* tamaño de las cartas sin bootstrap */
+
+#cards_team img{
+    width: 30%;
 }
 
+.btn:hover {
+    color: #161815;
+
+}
 
 @media (max-width:767px) {
     .navbar-nav {
