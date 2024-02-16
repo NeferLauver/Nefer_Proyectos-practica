@@ -42,14 +42,14 @@ anchoy altura */
 
 
 .menu{
-    position: fixed;
+    position: absolute;  /*fixed es para estar moverse con el scroll y absolute se queda ahi */
     top: 6px;
     left: 0px;
     right: 0px;
     display: flex;
     align-items:center;
     justify-content: space-between;
-    background-color: #514c4a21;
+    /* background-color: #514c4a7a; */
     width: 100%;
     margin: auto;
     padding: 8px;
