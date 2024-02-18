@@ -49,6 +49,11 @@ nav ul li {
     font-weight: bold;
 }
 
+.container .navbar ul li a:hover {
+    color: var(--Naranja);
+}
+
+
 nav ul li a {
     text-decoration: none;
     color: black;
@@ -59,9 +64,14 @@ nav ul li a {
     color: #ffff;
     padding: 15px 30px;
     border-radius: 30px;
-    
-
 }
+
+.btn-action:hover{
+    background-color: var(--Naranja);
+    box-shadow: 8px 8px 10px 0px grey;
+    color: #ffff !important;
+}
+
 
 .banner{
     display: flex;
@@ -86,12 +96,12 @@ nav ul li a {
 
 .banner-imagen img {
     width: 100%;
-    animation: bounce 2s infinite; /* Adjust animation duration as needed */
+    animation: updown 2s infinite; /* Adjust animation duration as needed */
 }
 
 /* hacer que la imagen se mueva de arriba a abajo */
 
-@keyframes bounce {
+@keyframes updown {
   0%, 100% {
     transform: translateY(0);
   }
