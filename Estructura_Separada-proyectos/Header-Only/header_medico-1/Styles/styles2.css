@@ -35,6 +35,13 @@ header {
     align-items: center;
 }
 
+.Logo-adolescente{
+    width: 190px;
+    height: 170;
+    /* margin-top: 16px;  */
+    
+}
+
 nav {
     width: 100%;
     text-align: end;    
