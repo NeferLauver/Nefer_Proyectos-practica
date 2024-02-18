@@ -18,7 +18,7 @@ body {
 
 /* va hacer que se centre*/
 .container {
-    width: 120rem;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -49,7 +49,7 @@ anchoy altura */
     display: flex;
     align-items:center;
     justify-content: space-between;
-    background-color: #ec490896;
+    background-color: #191817fe;
     width: 100%;
     margin: auto;
 }
@@ -58,9 +58,14 @@ anchoy altura */
 
 /*imagen de logo mover*/
 
+.logo_container {
+    padding-left: 7rem;
+}
+
+
 img.caffe-logo-nefer {
     width: 80px;
-    margin-top: 16px; 
+    /* margin-top: 16px;  */
     transition: all .20s ease-in-out;
 }
 
@@ -141,7 +146,7 @@ img.caffe-logo-nefer {
 
 
  .btn-1_shop {
-    font-size: 18px;
+    font-size: 12px;
     display: flex;
     background: #BF7747; /* color de fondo */
     color: #fff; /* color de fuente */
@@ -149,14 +154,14 @@ img.caffe-logo-nefer {
     padding: 16px 20px;
     border-radius: 15px; /* redondear bordes */
     position: relative;
-    z-index: 1;
-    overflow: hidden;
+    /* z-index: 1; */
+    /* overflow: hidden; me lo tenia pegado arriba  */
     display: inline-block;
 }
 
 .btn-1_shop:hover {
-    background: #D15300 ;
-  color: #fff !important;
+    background: #6A2C03;
+    color: #fff !important;
   }
 
 
@@ -189,6 +194,12 @@ img.caffe-logo-nefer {
     background-color: rgb(114, 59, 37);
     box-shadow: #ce967b 0 0 15px;
 } */
+
+.btn-Shop {
+    padding-right: 7rem;
+}
+
+
 
 /*** ESTILOS BOTÓN GROW SPIN ***/
 .btn-1 {
