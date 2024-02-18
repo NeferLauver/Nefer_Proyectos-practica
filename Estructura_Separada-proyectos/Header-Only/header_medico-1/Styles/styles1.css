@@ -44,5 +44,18 @@ nav {
 nav ul li {
     display: inline-block;
     margin: 10px 20px;
+    font-weight: bold;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-action {
+    background: var(--Azul);
+    color: #ffff;
+    padding: 15px 30px;
+    border-radius: 30px;
+
+}
