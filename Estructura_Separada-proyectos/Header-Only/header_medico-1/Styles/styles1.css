@@ -71,10 +71,16 @@ nav ul li a {
     flex-basis: 50%;   /*se define el tamaño de un ítem en términos del espacio que deja como espacio disponible */
 }
 
-.banner-info h2 {
-    font-size: 50px;
+.banner-info h1 {
+    margin-bottom: 20px;
+    font-size: 55px;
     font-weight: 700px;
     color: var(--Azul);
+    line-height : 70px;
+}
+
+.parrafo {
+    line-height : 25px;
 }
 
 .banner-imagen img {
