@@ -1,4 +1,6 @@
 
+/* https://youtu.be/PYqHB_jt_u4?si=dwgLtdUWN2lJX97I */
+
 :root {
     /* colores */
     --Azul: #122F5F;
@@ -65,7 +67,7 @@ nav ul li a {
 }
 
 .banner-info, .banner-imagen {
-    flex-basis: 50%;
+    flex-basis: 50%;   /*se define el tamaño de un ítem en términos del espacio que deja como espacio disponible */
 }
 
 .banner-imagen img {
