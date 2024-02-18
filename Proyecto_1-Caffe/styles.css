@@ -43,17 +43,15 @@ anchoy altura */
 
 .menu{
     position: absolute;  /*fixed es para estar moverse con el scroll y absolute se queda ahi */
-    top: 6px;
+    top: 0px;
     left: 0px;
     right: 0px;
     display: flex;
     align-items:center;
     justify-content: space-between;
-    background-color: #514c4a7a;
+    background-color: #ec490896;
     width: 100%;
     margin: auto;
-    padding: 8px;
-    border-radius: 10px;
 }
 
 
