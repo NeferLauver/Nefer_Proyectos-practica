@@ -1,0 +1,141 @@
+:root {
+    /* colores */
+    --Azul: #122F5F;
+    --Gris: #F6F9FE;
+    --CelesteFuerte: #3276E2;
+    --Naranja: #F1A55A;
+    --CelesteBajo: #D3E9F9;
+    --CelestePildora:#c8e5fb;
+        
+}
+
+/* quitar barras de desplzamiento */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, var(--CelesteBajo),#ffff);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    text-align: end;    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+
+.container .navbar ul li a:hover {
+    color: var(--Naranja);
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-action {
+    background: var(--Azul);
+    color: #ffff;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.btn-action:hover{
+    background-color: var(--Naranja);
+    box-shadow: 8px 8px 10px 0px grey;
+    color: #ffff !important;
+}
+
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.banner-info, .banner-imagen {
+    flex-basis: 50%;   /*se define el tamaño de un ítem en términos del espacio que deja como espacio disponible */
+}
+
+.banner-info h1 {
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-weight: 700px;
+    color: var(--Azul);
+    line-height : 70px;
+}
+
+.parrafo {
+    line-height : 25px;
+}
+
+.banner-imagen img {
+    width: 100%;
+    animation: updown 2s infinite; /* Adjust animation duration as needed */
+}
+
+/* hacer que la imagen se mueva de arriba a abajo */
+
+@keyframes updown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the height of the bounce */
+  }
+}
+
+
+
+
+
+.pill {
+    background: var(--CelestePildora);
+    color: var(--CelesteFuerte);
+    padding: 10px 20px;
+    margin: 10px 10px 20px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.pill img {
+    width: 25px;
+    margin: 0 8px 0 -8px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn a:hover {
+    background-color: var(--Naranja);
+    box-shadow: 8px 8px 10px 0px grey;
+}
