@@ -18,7 +18,7 @@ body {
 
 /* va hacer que se centre*/
 .container {
-    max-width: 1200px;
+    width: 120rem;
     margin: 0 auto;
 }
 
@@ -49,7 +49,7 @@ anchoy altura */
     display: flex;
     align-items:center;
     justify-content: space-between;
-    /* background-color: #514c4a7a; */
+    background-color: #514c4a7a;
     width: 100%;
     margin: auto;
     padding: 8px;
@@ -61,7 +61,7 @@ anchoy altura */
 /*imagen de logo mover*/
 
 img.caffe-logo-nefer {
-    width: 120px;
+    width: 80px;
     margin-top: 16px; 
     transition: all .20s ease-in-out;
 }
@@ -84,11 +84,10 @@ img.caffe-logo-nefer {
 
 
 .menu .navbar ul li{
-    position: f;
+    position: relative;
     float: left;
 
 }
-
 
 
 .menu .navbar ul li a {
