@@ -19,9 +19,8 @@ body {
 /* va hacer que se centre*/
 .container {
     max-width: 1200px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
-
 
 
 /* oscurecer las imagenes linear-gradient primero y despues imagen, centrar imagen, cubrir
@@ -67,7 +66,7 @@ anchoy altura */
 img.caffe-logo-nefer {
     width: 80px;
     /* margin-top: 16px;  */
-    transition: all .20s ease-in-out;
+    
 }
 
 
@@ -631,3 +630,4 @@ link h3 {
     }
     
 }
+
