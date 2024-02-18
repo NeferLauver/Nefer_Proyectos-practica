@@ -18,9 +18,10 @@ body {
 
 /* va hacer que se centre*/
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
+    /* margin: 0 auto; */
 }
+
 
 
 /* oscurecer las imagenes linear-gradient primero y despues imagen, centrar imagen, cubrir
