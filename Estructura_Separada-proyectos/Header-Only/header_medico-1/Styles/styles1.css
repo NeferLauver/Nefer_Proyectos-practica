@@ -8,7 +8,7 @@
     --CelesteFuerte: #3276E2;
     --Naranja: #F1A55A;
     --CelesteBajo: #D3E9F9;
-    --CelestePildora:#D8EBFA;
+    --CelestePildora:#c8e5fb;
         
 }
 
@@ -64,12 +64,43 @@ nav ul li a {
 
 .banner{
     display: flex;
+    align-items: center;
 }
 
 .banner-info, .banner-imagen {
     flex-basis: 50%;   /*se define el tamaño de un ítem en términos del espacio que deja como espacio disponible */
 }
 
+.banner-info h2 {
+    font-size: 50px;
+    font-weight: 700px;
+    color: var(--Azul);
+}
+
 .banner-imagen img {
     width: 100%;
+}
+
+.pill {
+    background: var(--CelestePildora);
+    color: var(--CelesteFuerte);
+    padding: 10px 20px;
+    margin: 10px 10px 20px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.pill img {
+    width: 25px;
+    margin: 0 8px 0 -8px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn a {
+    text-decoration: none;
 }
