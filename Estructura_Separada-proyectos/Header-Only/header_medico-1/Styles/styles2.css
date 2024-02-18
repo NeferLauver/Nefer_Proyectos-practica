@@ -33,6 +33,7 @@ body {
 header {
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
 
 .Logo-adolescente{
@@ -64,15 +65,18 @@ nav ul li a {
 }
 
 .btn-action {
-    background: var(--Azul);
+    background:linear-gradient(to left,#2fc1ea,#b54da1);
     color: #ffff;
     padding: 15px 30px;
     border-radius: 30px;
+    box-shadow: 8px 8px 10px 0px grey;
 }
 
 .btn-action:hover{
-    background-color: var(--Naranja);
-    box-shadow: 8px 8px 10px 0px grey;
+    background: #a400f7;
+
+    /* background-color: var(--Naranja); */
+    /* box-shadow: 8px 8px 10px 0px grey; */
     color: #ffff !important;
 }
 
@@ -80,6 +84,7 @@ nav ul li a {
 .banner{
     display: flex;
     align-items: center;
+    margin-top: 80px;
 }
 
 .banner-info, .banner-imagen {
@@ -143,6 +148,8 @@ nav ul li a {
 }
 
 .btn a:hover {
-    background-color: var(--Naranja);
+    background:#a400f7;
+
+    /* background-color: var(--Naranja); */
     box-shadow: 8px 8px 10px 0px grey;
 }
