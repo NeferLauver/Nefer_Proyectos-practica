@@ -1,11 +1,11 @@
 :root {
     /* colores */
-    --Azul: #122F5F;
-    --Gris: #F6F9FE;
-    --CelesteFuerte: #3276E2;
-    --Naranja: #F1A55A;
-    --CelesteBajo: #D3E9F9;
-    --CelestePildora:#c8e5fb;
+    --morado: #a400f7;
+    --azulCeleste: #2fc1ea;
+    --rosa:#b54da1;
+    
+
+
         
 }
 
@@ -130,7 +130,9 @@ nav ul li a {
   }
 }
 
-
+.Tu_color-1 {
+    
+}
 
 
 
@@ -152,6 +154,7 @@ nav ul li a {
 
 .btn {
     margin-top: 50px;
+    transition: font-size 0.1s ease
 }
 
 .btn a {
@@ -160,7 +163,7 @@ nav ul li a {
 
 .btn a:hover {
     background:#a400f7;
-
     /* background-color: var(--Naranja); */
     box-shadow: 8px 8px 10px 0px grey;
+    font-size: 20PX;
 }
