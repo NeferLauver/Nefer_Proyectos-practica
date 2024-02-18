@@ -48,15 +48,26 @@ nav {
     text-align: end;    
 }
 
+li {
+    transition: font-size 0.3s ease; /* Smooth transition effect */
+}
+
+li:hover {
+    font-size: 20px; /* Increased font size on hover */
+}
+
 nav ul li {
     display: inline-block;
     margin: 10px 20px;
     font-weight: bold;
+    
 }
 
 .container .navbar ul li a:hover {
-    color: var(--Naranja);
+    color: #a400f7;
 }
+
+
 
 
 nav ul li a {
