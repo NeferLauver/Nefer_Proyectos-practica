@@ -75,12 +75,13 @@ nav ul li a {
     color: #ffff;
     padding: 15px 30px;
     border-radius: 30px;
-    box-shadow: 8px 8px 10px 0px grey;
+    box-shadow: rgb(201, 199, 199) 8px 8px 10px 0px;
     font-weight: bold;
 }
 
 .btn-action:hover{
     background: #a400f7;
+    box-shadow: rgb(201, 199, 199) 8px 8px 10px 0px;
 
     /* background-color: var(--Naranja); */
     /* box-shadow: 8px 8px 10px 0px grey; */
@@ -144,9 +145,10 @@ nav ul li a {
     padding: 10px 20px;
     margin: 10px 10px 20px 0;
     border-radius: 20px;
+    box-shadow: rgb(201, 199, 199) 8px 8px 10px 0px;
     display: flex;
     align-items: center;
-    width: 29px;
+    width: 290px;
 }
 
 .pill img {
@@ -166,6 +168,6 @@ nav ul li a {
 .btn a:hover {
     background:#a400f7;
     /* background-color: var(--Naranja); */
-    box-shadow: 8px 8px 10px 0px grey;
+    box-shadow: rgb(201, 199, 199) 8px 8px 10px 0px;
     font-size: 20PX;
 }
